@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> -->
+
+    <link rel="stylesheet" type="text/css" href="test.css">
+</head>
+
+<body>
+    <form class="form-container">
+        <p>
+            <p class="font-header-small header-form">Как расшифровывается CSS?</p>
+            <div class="radio-item">
+                <input type="radio" id="q1-1" name="test1" value="Cascading Style Sheets">
+                <label for="q1-1" class="font-text">Cascading Style Sheets</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="q1-2" name="test1" value="Creative Style Sheets">
+                <label for="q1-2" class="font-text">Creative Style Sheets</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="q1-3" name="test1" value="Colorful Style Sheets">
+                <label for="q1-3" class="font-text">Colorful Style Sheets</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="q1-4" name="test1" value="Computer Style Sheets">
+                <label for="q1-4" class="font-text">Computer Style Sheets</label>
+            </div>
+        </p>
+        <!----->
+        <p>
+            <p class="font-header-small header-form">Выберите корректный синтаксис CSS.</p>
+            <div class="radio-item">
+                <input type="radio" id="quest2-inp1" name="q2" value="good">
+                <label for="quest2-inp1" class="font-text">p{color:red;}</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest2-inp2" name="q2" value="p=color:red;">
+                <label for="quest2-inp2" class="font-text">p=color:red;</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest2-inp3" name="q2" value="p{color=red;}">
+                <label for="quest2-inp3" class="font-text">p{color=red;}</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest2-inp4" name="q2" value="p:color=red;">
+                <label for="quest2-inp4" class="font-text">p:color=red;</label>
+            </div>
+        </p>
+        <!---->
+        <p>
+            <p class="font-header-small header-form">Что такое селектор CSS?</p>
+            <div class="radio-item">
+                <input type="radio" id="quest3-inp1" name="q3" value="good">
+                <label for="quest3-inp1" class="font-text">Элемент или элементы, на которые распространяется стиль.</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest3-inp2" name="q3" value="2">
+                <label for="quest3-inp2" class="font-text">Блок внутри фигурных скобок.</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest3-inp3" name="q3" value="3">
+                <label for="quest3-inp3" class="font-text">Стилевая характеристика для изменения.</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest3-inp4" name="q3" value="4">
+                <label for="quest3-inp4" class="font-text">Значение стилевого параметра.</label>
+            </div>
+        </p>
+        <!---->
+        <p>
+            <p class="font-header-small header-form">Как написать селектор только для элемента &nbsp;ul class="menu"> ?</p>
+            <div class="radio-item">
+                <input type="radio" id="quest4-inp1" name="q4" value=":menu">
+                <label for="quest4-inp1" class="font-text">:menu</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest4-inp2" name="q4" value="#menu">
+                <label for="quest4-inp2" class="font-text">#menu</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest4-inp3" name="q4" value="[menu]">
+                <label for="quest4-inp3" class="font-text">[menu]</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest4-inp4" name="q4" value="good">
+                <label for="quest4-inp4" class="font-text">.menu</label>
+            </div>
+        </p>
+        <!---->
+        <p>
+            <p class="font-header-small header-form">Как задать селектор для всех элементов &nbspp с классом opa?</p>
+            <div class="radio-item">
+                <input type="radio" id="quest5-inp1" name="q5" value="p:opa">
+                <label for="quest5-inp1" class="font-text">p:opa</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest5-inp2" name="q5" value="p#opa">
+                <label for="quest5-inp2" class="font-text">p#opa</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest5-inp3" name="q5" value="good">
+                <label for="quest5-inp3" class="font-text">p.opa</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest5-inp4" name="q5" value="p[opa]">
+                <label for="quest5-inp4" class="font-text">p[opa]</label>
+            </div>
+        </p>
+        <!---->
+        <p>
+            <p class="font-header-small header-form">Как написать класс с именем icon?</p>
+            <div class="radio-item">
+                <input type="radio" id="quest6-inp1" name="q6" value="good">
+                <label for="quest6-inp1" class="font-text">.icon</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest6-inp2" name="q6" value="#icon">
+                <label for="quest6-inp2" class="font-text">#icon</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest6-inp3" name="q6" value="icon">
+                <label for="quest6-inp3" class="font-text">icon</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest6-inp4" name="q6" value=":icon">
+                <label for="quest6-inp4" class="font-text">:icon</label>
+            </div>
+        </p>
+        <!---->
+        <p>
+            <p class="font-header-small header-form">Как написать идентификатор с именем foot?</p>
+            <div class="radio-item">
+                <input type="radio" id="quest7-inp1" name="q7" value="1">
+                <label for="quest7-inp1" class="font-text">foot</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest7-inp2" name="q7" value="2">
+                <label for="quest7-inp2" class="font-text">.foot</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest7-inp3" name="q7" value="3">
+                <label for="quest7-inp3" class="font-text">:foot</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="quest7-inp4" name="q7" value="good">
+                <label for="quest7-inp4" class="font-text">#foot</label>
+            </div>
+        </p>
+        <p>
+        </p>
+        <div class="test-button">
+            <input type="button" id="calc" value="Подсчитать результаты" />
+        </div>
+        <div class="result">
+            <input type="text" class="result-input" name="result" readonly />
+            <input type="reset" class="reset-delete" value="Сброс" /></div>
+    </form>
+    <script src="test.js"></script>
+</body>
+
+</html>
